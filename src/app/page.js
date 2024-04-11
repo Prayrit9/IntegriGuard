@@ -5,7 +5,6 @@ import Landing from './components/landing';
 import Working from './components/working';
 import Execution from './components/execution';
 
-
 export default function Home() {
   return (
     <div>
