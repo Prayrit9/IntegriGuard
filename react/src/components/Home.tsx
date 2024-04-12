@@ -108,43 +108,9 @@ function Landing() {
       </div>
       <div>
         <div className="bg-[#D8C4B6] flex items-center pt-[10vh] justify-center">
-          <div className="flex">
-            <div className="w-[80vw] p-9 rounded-3xl backdrop-blur-60 bg-opacity-50 shadow-lg bg-[#F5EFE7]">
-              <h1 className="font-semibold text-[4vh] text-[#213555] text-center">
-                Track progress
-              </h1>
-              <div className="flex justify-between py-[3vw]">
-                <NavLink
-                  to="/teams/team1"
-                  className="rounded-lg bg-[#213555] py-[2vw] px-[5vw] hover:bg-[#335284] text-[#F5EFE7]"
-                >
-                  team1
-                </NavLink>
-                <NavLink
-                  to="/teams/team2"
-                  className="rounded-lg bg-[#213555] py-[2vw] px-[5vw] hover:bg-[#335284] text-[#F5EFE7]"
-                >
-                  team2
-                </NavLink>
-                <NavLink
-                  to="/teams/team3"
-                  className="rounded-lg bg-[#213555] py-[2vw] px-[5vw] hover:bg-[#335284] text-[#F5EFE7]"
-                >
-                  team3
-                </NavLink>
-                <NavLink
-                  to="/teams/team4"
-                  className="rounded-lg bg-[#213555] py-[2vw] px-[5vw] hover:bg-[#335284] text-[#F5EFE7]"
-                >
-                  team4
-                </NavLink>
-              </div>
-            </div>
-            <div></div>
           </div>
         </div>
       </div>
-    </div>
   );
 }
 
