@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 function Landing() {
   return (
@@ -113,16 +114,30 @@ function Landing() {
                 Track progress
               </h1>
               <div className="flex justify-between py-[3vw]">
-                {/* <Link href="/teams.js"><button className='rounded-lg bg-[#213555] py-[2vw] px-[5vw] hover:bg-[#335284] text-[#F5EFE7]'>team1</button></Link> */}
-                <button className="rounded-lg bg-[#213555] py-[2vw] px-[5vw] hover:bg-[#335284] text-[#F5EFE7]">
+                <NavLink
+                  to="/teams/team1"
+                  className="rounded-lg bg-[#213555] py-[2vw] px-[5vw] hover:bg-[#335284] text-[#F5EFE7]"
+                >
+                  team1
+                </NavLink>
+                <NavLink
+                  to="/teams/team2"
+                  className="rounded-lg bg-[#213555] py-[2vw] px-[5vw] hover:bg-[#335284] text-[#F5EFE7]"
+                >
                   team2
-                </button>
-                <button className="rounded-lg bg-[#213555] py-[2vw] px-[5vw] hover:bg-[#335284] text-[#F5EFE7]">
+                </NavLink>
+                <NavLink
+                  to="/teams/team3"
+                  className="rounded-lg bg-[#213555] py-[2vw] px-[5vw] hover:bg-[#335284] text-[#F5EFE7]"
+                >
                   team3
-                </button>
-                <button className="rounded-lg bg-[#213555] py-[2vw] px-[5vw] hover:bg-[#335284] text-[#F5EFE7]">
+                </NavLink>
+                <NavLink
+                  to="/teams/team4"
+                  className="rounded-lg bg-[#213555] py-[2vw] px-[5vw] hover:bg-[#335284] text-[#F5EFE7]"
+                >
                   team4
-                </button>
+                </NavLink>
               </div>
             </div>
             <div></div>

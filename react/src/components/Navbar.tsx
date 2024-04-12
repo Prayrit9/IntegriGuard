@@ -9,9 +9,9 @@ export default function Navbar() {
     <>
       <div>
         <nav className="flex justify-center bg-[#F5EFE7] h-[10vh] gap-[37vh] items-center fixed w-full bg-opacity-50 backdrop-blur-sm">
-          <div className="justify-center text-left flex flex-col">
+          <NavLink to="/" className="justify-center text-left flex flex-col">
             <img src={logo} height={40} width={40} />
-          </div>
+          </NavLink>
 
           <div className="flex  ml-12 items-center">
             <ul className="flex flex-row gap-[5vw] ">
