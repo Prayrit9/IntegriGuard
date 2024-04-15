@@ -5,7 +5,7 @@ function Landing() {
   return (
     <div>
       <div className="h-[100vh] flex items-center gap-12 justify-center bg-[#D8C4B6] ]">
-        <div className="w-[40vw] p-9 rounded-3xl backdrop-blur-60 bg-opacity-50 shadow-lg bg-[#F5EFE7]">
+        <div className="w-[40vw] h-[45vh] p-9 rounded-3xl backdrop-blur-60 bg-opacity-50 shadow-lg bg-[#F5EFE7]">
           <h1 className="font-semibold text-[3vh] text-[#213555]">
             What is IntegriGuard?
           </h1>
@@ -24,7 +24,7 @@ function Landing() {
             risk of fraud and errors.
           </p>
         </div>
-        <div className="w-[40vw] p-9 rounded-3xl bg-[#F5EFE7] backdrop-blur-60 bg-opacity-50 shadow-lg">
+        <div className="w-[40vw] h-[45vh] p-9 rounded-3xl bg-[#F5EFE7] backdrop-blur-60 bg-opacity-50 shadow-lg">
           <h1 className="font-semibold text-[#213555] text-[3vh]">
             What do we offer?
           </h1>
