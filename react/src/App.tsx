@@ -10,6 +10,8 @@ import Team4 from "./components/Teams/Team4";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import '@mantine/core/styles.css';
+import { MantineProvider } from '@mantine/core';
 
 export default function App() {
   return (
