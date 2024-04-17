@@ -13,6 +13,7 @@
     "@mantine/core": "^7.8.0",
     "@mantine/hooks": "^7.8.0",
     "connectkit": "^1.6.0",
+    "hardhat": "^2.20.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.3",
@@ -20,6 +21,7 @@
     "wagmi": "^1.4.13"
   },
   "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
     "@typescript-eslint/eslint-plugin": "^7.2.0",
