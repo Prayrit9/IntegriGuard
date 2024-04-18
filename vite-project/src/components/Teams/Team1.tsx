@@ -172,7 +172,7 @@ function Team1() {
      })
    )}`);
 
-          const  time = Number(
+            const time = Number(
               JSON.parse(
                 JSON.stringify(val, (key, value) => {
                   return typeof value === "bigint" ? value.toString() : value;
@@ -180,7 +180,8 @@ function Team1() {
               )
             );
 
-            const date = new Date(time);
+            const date = new Date(0);
+            console.log("eeeeeeeeeeeeeeee", date.setUTCSeconds(time));
 
             // Extract hours, minutes, and seconds
             // setGHours(date.getHours());
@@ -192,7 +193,7 @@ function Team1() {
 
             return (
               <h1>
-                {hours} Hrs : {minutes} Min : {seconds} Seconds
+                {hours} Hour : {minutes} Min : {seconds} Seconds {time}
               </h1>
             );
           })}

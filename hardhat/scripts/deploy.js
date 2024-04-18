@@ -13,7 +13,7 @@ async function main() {
 
   try {
     fs.writeFileSync(
-      "../react/src/smartContractAddress.json",
+      "../vite-project/src/smartContractAddress.json",
       JSON.stringify({ smartContractAddress: integriGuardContract.target })
     );
   } catch (error) {
