@@ -1,4 +1,5 @@
-Integriguard
+**Integriguard**
+
 Integriguard is a blockchain-based supply chain management system that provides a secure, transparent, and immutable solution for tracking and managing goods as they move through various stages of the supply chain. By leveraging blockchain technology, Integriguard ensures end-to-end visibility, accountability, and trust across all stakeholders.
 
 Features
